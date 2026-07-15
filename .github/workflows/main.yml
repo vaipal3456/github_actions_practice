@@ -12,8 +12,10 @@ permissions:
 
 jobs:
   Terraform-Validate-Plan:
+    environment: test
     name: Security Scan & Plan
     runs-on: ubuntu-latest
+    
 
     steps:
       - name: Checkout
